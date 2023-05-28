@@ -25,6 +25,12 @@ font-size: 1.4rem;
 padding: 14px 14px;
 content:"";  
 }
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #1cc5a3;
+}
 @media (min-width:320px)and (max-width:800px){
   .mensaje{
     background-color: #036;
