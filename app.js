@@ -1,6 +1,8 @@
 const mas = document.getElementById('lawn');
 const mass = document.getElementById('header');
 const masss = document.getElementById('frent');
+const mes = document.getElementById('titulo');
+const mess = document.getElementById('spa');
 
 document.addEventListener('scroll', () => {
   var scroll_position = window.scrollY;
@@ -13,6 +15,7 @@ document.addEventListener('scroll', () => {
     frent.style.borderBottomRightRadius = '0.2cm';
     frent.style.boxShadow = '0px 0px 5px rgb(22,56,87)';
     document.getElementById('lawn').innerHTML = 'Call-Now';
+     
      
    
   } else{
@@ -32,8 +35,13 @@ document.addEventListener('scroll', () => {
     header.style.backgroundColor = '#299684';
     header.style.color = '#ffff';
     frent.style.display= 'none';
+    titulo.style.background = '#0366b6';
+    spa.style.color = '#fff';
+    
+
   } else{
      frent.style.display= '';
-     
+     titulo.style.background = 'none';
+        spa.style.color = '#000';
   }
 });

@@ -1,7 +1,7 @@
 .mensaje{
   width:100%;
   height: 100px;
-  background-color: rgb(242, 127, 183);
+  background-color: rgb(52, 53, 50);
   padding: 0;
   margin: 0;
   overflow: hidden;
@@ -31,6 +31,29 @@ content:"";
 ::-webkit-scrollbar-thumb{
   background-color: #1cc5a3;
 }
+.call{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+.call a{
+  text-decoration: none;
+  color: #036;
+  background-color: #f6f6f6;
+  padding: 16px 16px;
+  border-radius: 0.4rem;
+  animation: 0.3s;
+  display: block;
+  width: 220px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+}
+.call a:hover{
+  background-color: #026284;
+  color: #fff;
+  animation: 0.3s;
+}
 @media (min-width:320px)and (max-width:800px){
   .mensaje{
     background-color: #036;
@@ -39,4 +62,37 @@ content:"";
     font-size: 0.8rem;
     color: #fff;
   }
+  .mas p{
+color: #036;
+font-size: 1rem;
+padding: 10px 10px;
+content:"";  
+}
+ 
+}
+@media (min-width:320px)and (max-width:500px){
+.home{
+  display: none;
+}
+}
+@media (min-width:300px)and (max-width:400px){
+.services{
+  display: none;
+}
+h2{
+  color: #036;
+}
+#photos{
+  display: none;
+}
+.photos{
+  margin-top: 30px;
+}
+.text1{
+  
+  width: 100%;
+}
+.text1 h2{
+  font-size: 1.2rem;
+}
 }
