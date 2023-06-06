@@ -3,6 +3,9 @@ const mass = document.getElementById('header');
 const masss = document.getElementById('frent');
 const mes = document.getElementById('titulo');
 const mess = document.getElementById('spa');
+const casas = document.getElementById('casa');
+const homes = document.getElementById('home');
+const pie = document.getElementById('footer');
 
 document.addEventListener('scroll', () => {
   var scroll_position = window.scrollY;
@@ -15,6 +18,8 @@ document.addEventListener('scroll', () => {
     frent.style.borderBottomRightRadius = '0.2cm';
     frent.style.boxShadow = '0px 0px 5px rgb(22,56,87)';
     document.getElementById('lawn').innerHTML = 'Call-Now';
+    homes.style.color = 'blue';
+    
      
      
    
@@ -26,6 +31,8 @@ document.addEventListener('scroll', () => {
     frent.style.height = '360px';
     frent.style.borderBottomLeftRadius = 'none';
     frent.style.borderBottomRightRadius = 'none';
+     homes.style.color = '#fff';
+     homes.style.fontWeight= "bold";
     }
    
 });
@@ -37,11 +44,21 @@ document.addEventListener('scroll', () => {
     frent.style.display= 'none';
     titulo.style.background = '#0366b6';
     spa.style.color = '#fff';
+    casas.style.backgroundColor = 'rgba(0,0,0,0.2)';
+    footer.style.height = '120px';
+    footer.style.backgroundColor = '#026484';
+     
+     
+
     
 
   } else{
      frent.style.display= '';
      titulo.style.background = 'none';
         spa.style.color = '#000';
+         casas.style.backgroundColor = '#fff';
+         footer.style.height = '140px';
+    footer.style.backgroundColor = '#299684';
+     
   }
 });
