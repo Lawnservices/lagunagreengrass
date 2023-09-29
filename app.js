@@ -3,7 +3,7 @@ const mass = document.getElementById('header');
 const masss = document.getElementById('frent');
 const mes = document.getElementById('titulo');
 const mess = document.getElementById('spa');
-const casas = document.getElementById('casa');
+ 
 const homes = document.getElementById('home');
 const pie = document.getElementById('footer');
 
