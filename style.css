@@ -9,22 +9,21 @@ html{
 .navbar{
   position: relative;
   width: 100%;
-  height: 120px;
+  height: 100px;
   background-color: #2e2c2cfd;
   overflow: hidden;
   border-bottom:2px solid rgba(255,105,0,1);
 }
 .navbar h1{
   text-align: center;
-  font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: #299684;
   letter-spacing: 0.1cm;
-   
 }
 .color{
   width: 100%;
   height: 120px;
-  background-image: url(https://miguellaguna.com/img/galeria11.jpg);
+  background-image: url(https://lagunalawnservice.com/img/galeria9.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -44,12 +43,8 @@ margin: 0;
 overflow: hidden;
 list-style-type: none;
 display: block;
-
 position: relative;
- 
-
 }
- 
 li{
   float: left;
 }
@@ -92,22 +87,20 @@ position: -webkit-sticky;
 position: sticky;
 top: 0;
 }
+ 
 .titulo{
   width: 100%;
   height: 120px;
   background-color:transparent;
   text-align: center;
-  box-shadow: 0px 8px 16px 0px #0366;
   background-repeat: no-repeat;
   background-size: cover;
    
 }
 .titulo span{
-  font-size:1.4rem;
+  font-size:2rem;
   color: #0366b6;
   line-height: 30px;
-   
-   
 }
 .content{
   margin-top: 30px;
@@ -134,14 +127,12 @@ object-fit: cover;
 .text1 p{
   color: #000;
  text-transform: lowercase;
- 
-  
 }
 /* pmimg */
 #photos{
   color: #0366b6;
   margin-left: 130px;
-  font-size: 1.4rem;
+  font-size:2rem;
 }
 .photos{
     display: grid;
@@ -156,8 +147,6 @@ object-fit: cover;
   height: 100%;
   object-fit: cover;
   border-radius: 0.2cm;
-  box-shadow: 0px 4px 0px  #044a36; 
-   
 }
  
 @media (min-width:320px)and (max-width:800px){
@@ -199,7 +188,6 @@ object-fit: cover;
   width: 100%;
   height:130px;
   background-color: #299684;
-   
 }
 
 .hours{
