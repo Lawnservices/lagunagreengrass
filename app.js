@@ -63,3 +63,8 @@ document.addEventListener('scroll', () => {
   }
 });
 });
+
+let fecha = new Date();
+let year = fecha.getFullYear();
+
+document.getElementById('dias').textContent = `${year} Miguel Lawn Services.`;
