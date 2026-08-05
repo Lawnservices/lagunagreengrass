@@ -1,0 +1,175 @@
+  body {
+            font-family: Arial;
+            background: #f5f7f6;
+            margin: 0;
+            padding:0;
+
+        }
+.navbar{
+  margin: 0; 
+  width: 100%;
+  height: 100px;
+  background-color: #2e2c2cfd;
+  overflow: hidden;
+   
+   
+}
+.navbar h1{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #299684;
+  letter-spacing: 0.1cm;
+}
+.color{
+  width: 100%;
+  height: 120px;
+  background-image: url(https://lagunalawnservice.com/img/galeria9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-color: #0366b6;
+}
+.header{
+top: 0;
+position: -webkit-sticky;
+position: sticky;
+z-index: 10;
+background-color: #2a2c2b;
+ 
+}
+.header ul{
+padding: 0;
+margin: 0;  
+overflow: hidden;
+list-style-type: none;
+display: block;
+position: relative;
+}
+li{
+  float: left;
+}
+li a{
+  text-decoration: none;
+  padding: 17px 17px;
+  display: block;
+  color: #fff;
+  font-weight: 300;
+  transition: all 1s;
+  font-size: 1.4rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+a::before{
+  overflow: hidden;
+  content: "";
+  width: 100%;
+  height: 100%;
+  right: 100%;
+  top: 0;
+  position: absolute;
+  background-color: #3a3f43;
+  transition: 0.3s;
+  z-index: -1;
+}
+li a:hover::before{
+   transform: translateX(100%);
+}
+        .container {
+            max-width: 1200px;
+            margin: auto
+        }
+
+        h1 {
+            text-align: center;
+            color: #061125;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+            border-radius:6px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px #ccc
+        }
+
+        thead {
+            background: #2b2e2b;
+            color: white
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left
+        }
+
+        td {
+            border-bottom: 1px solid #eee
+        }
+
+        tr:hover {
+            background: #424643;
+            color: #fff;
+        }
+
+        .icon {
+            width: 45px;
+            height: 45px;
+            object-fit: cover;
+            border-radius: 10px
+        }
+
+        .price {
+            color: #2b8a3e;
+            font-weight: bold
+        }
+/* final footer */
+.ariva{
+  float: right;
+  margin-right: 120px;
+  padding: 16px 16px;
+  font-size: 1.4rem;
+  text-decoration: none;
+   
+}
+.footer{
+    border-bottom: 120px;
+  border-top: 4px solid rgba(255,105,0,1);
+  width: 100%;
+  height:130px;
+  background-color: #299684;
+}
+
+.hours{
+   
+ position: relative;
+ overflow: hidden;
+ margin-left: 30px;
+ margin-top: 1px;
+}
+.hours span{
+  display: block;
+ margin-top: 2px;
+  width: 260px;
+}
+h6{
+  margin-left: 2rem;
+}
+.busi{
+  color: #fff;
+  font-size: 1.4rem;
+}
+        @media(max-width:700px) {
+
+            th,
+            td {
+                padding:6px
+            }
+
+            .icon {
+                width: 35px;
+                height: 35px
+            }
+        }
